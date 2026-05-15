@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up-form</title>
+    <link rel = "stylesheet" href = "style.css">
+
+</head>
+<body>
+    <div class = "container">
+        <!--image-->
+        <div class = "image">
+            <div class = "img-con">
+                <img src = "odin-lined.png" id = "odin">
+                <p id = "txt">odin</p>
+            </div>
+        </div>
+        <!--text box-->
+    <div class = "second-item">
+        <div class = "text-container">
+            <p class = "text"> This is not a real online service!
+                You know you need something</p> 
+                <p class = "text"> like this in your life to help
+                you realize your deepest dreams.</p>
+
+              <p class = "text">sign up now to get started.</p>
+            </p>
+            
+            <p id = "solo"> You know you want to</p>
+
+        </div>
+        <!--form-->
+        <div class = "form">
+            <div class = "sub-form">
+            <h2> Lets do this</h4>
+            <form>
+               <div  class = "section">
+                 <div class="formSty">  
+                    <label for = "first" class = "label"> FIRST NAME </label>
+                    <input type = "text" id = "first" class = "ele" >
+                 </div>
+                 <div class = "formSty">
+                    <label for = "last" class = "label"> LAST NAME</label>
+                    <input type = "text" id = "last" class = "ele" >
+                 </div>
+
+               </div>
+               <div  class = "section">
+                   <div class = "formSty">
+                        <label for = "email" class = "label"> EMAIL </label>
+                        <input type = "text" id = "email" class = "ele" >
+                   </div>
+                   <div class = "formSty">
+                        <label for = "phone" class = "label"> PHONE NUMBER</label>
+                        <input type = "text" id = "phone" class = "ele" >
+                   </div>
+               </div>
+               <div class = "section">
+                 <div class = "formSty">
+                    <label for = "password" class = "label"> PASSWORD</label>
+                    <input type = "text" id = "password" class = "ele"  >
+                </div>
+                <div class = "formSty">
+                    <label for = "confirm" class = "label"> CONFIRM PASSWORD</label>
+                    <input type = "text" id = "confirm" class = "ele" >
+                </div>
+
+                </div>
+            </form>
+           </div>
+        </div>
+        <!--bottom-->
+        <div class = "bottom">
+
+            <button type = "submit" onclick = "checkInput()" id = "btn"> Create Account </button>
+            <p>Already have an account?<span style = "color:green">Log in </span></p>
+
+
+        </div>   
+    </div> 
+    
+
+
+    </div>    
+
+
+    <script src="javas.js"></script>
+</body>
+</html>
